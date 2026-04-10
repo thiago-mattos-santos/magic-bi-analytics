@@ -17,18 +17,18 @@ It simulates a real-world analytics workflow, covering the full pipeline:
 
 The goal is to demonstrate strong fundamentals in data engineering, data modeling, and business intelligence.
 
-## 🧱 Architecture
+## Architecture
 
 Google Sheets → Python ETL → PostgreSQL → Power BI
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Python** — Data extraction, transformation, and loading (ETL)
 - **PostgreSQL** — Data storage and modeling (star schema)
 - **Power BI** — Data visualization and dashboarding
 - **Google Sheets** — Data source
 
-## 📊 Data Model
+## Data Model
 
 The project follows a **star schema design**.
 
@@ -42,7 +42,7 @@ The project follows a **star schema design**.
 - `DIM_SEASON`
 - `DIM_SCORE_RULE`
 
-## 🔄 ETL Process
+## ETL Process
 
 ### Extract
 - Data is extracted from Google Sheets using Python
@@ -75,7 +75,7 @@ The project follows a **star schema design**.
   - `extract`, `transform`, `load` separation
   - Reusable components
 
-## 📊 Dashboard
+## Dashboard
 
 *Screenshots will be added here.*
 
@@ -86,7 +86,7 @@ Example structure:
 - Commander analysis
 - Score breakdown
 
-## 🧪 Additional Analytics (Python Layer)
+## Additional Analytics (Python Layer)
 
 The project also includes a Python-based analytics layer to:
 
@@ -97,7 +97,7 @@ The project also includes a Python-based analytics layer to:
 Example use case:
 - Player vs opponent performance analysis
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -117,7 +117,7 @@ Example use case:
 
     python src/main.py
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - SQL validation layer for metric verification
 - Dashboard enhancements and storytelling improvements
@@ -126,10 +126,10 @@ Example use case:
 - Data quality monitoring
 - Python-based dashboard and metrics replication
 
-## 📌 Project Status
+## Project Status
 
 This project is actively maintained and continuously improved to simulate real-world data workflows.
 
-## 👨‍💻 Author
+## Author
 
 Thiago Mattos Santos
