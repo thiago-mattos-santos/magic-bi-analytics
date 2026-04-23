@@ -95,9 +95,7 @@ Example:
 ### All Seasons Overview
 ![All Seasons Overview](assets/screenshots/season_overview_all.png)
 
-## Season Overview Description
-
-This page was designed to provide a high-level analytical view of match activity, player performance, and score distribution across the dataset. It combines core KPIs, score-based rankings, efficiency indicators, and trend analysis to support both broad monitoring and deeper performance interpretation.
+These pages were designed to provide a high-level analytical view of match activity, player performance, and score distribution across the dataset. It combines core KPIs, score-based rankings, efficiency indicators, and trend analysis to support both broad monitoring and deeper performance interpretation.
 
 A central part of this view is the relationship between **volume and efficiency**. The page allows performance to be interpreted not only through total matches and accumulated score, but also through win rate, starting position results, and the impact of different game sizes. It also includes a scoring perspective that helps distinguish players who lead through consistency and participation from those who stand out through stronger efficiency.
 
@@ -107,10 +105,8 @@ The project includes two complementary versions of this page:
 
 This split was intentionally adopted to preserve analytical consistency, since some calculations and ranking behaviors differ between season-specific and all-time contexts.
 
-### Commanders Overview
-![Commanders Overview](assets/screenshots/commander_overview_all.png)
-
-## Commander Overview Description
+### Commander Overview
+![Commander Overview](assets/screenshots/commander_overview_all.png)
 
 This page was designed as a commander-centered analytical view, combining overall context with a detailed breakdown of an individually selected commander.
 
@@ -124,25 +120,17 @@ It includes:
 
 The goal of this page is to move beyond simple aggregate metrics and provide a more tactical understanding of how a specific commander performs, how often it is used, under which conditions it performs better, and how its recent trajectory compares with its broader historical profile.
 
-*More screenshots will be added here.*
-
-Example structure:
-
-- Main dashboard
-- Player performance analysis
-- Commander analysis
-- Score breakdown
 
 ## Additional Analytics (Python Layer)
 
-The project also includes a Python-based analytics layer to:
+A future layer of the project will focus on reproducing key analytical views in Python, extending the same logic used in Power BI to a programmatic environment.
 
-- Reproduce BI metrics outside Power BI
-- Validate calculations between layers
-- Perform advanced analysis not easily handled in dashboards
+The goal is to:
+- replicate dashboard metrics in Python
+- validate calculations across BI, SQL, and Python layers
+- support exploratory and advanced analysis beyond the dashboard
 
-Example use case:
-- Player vs opponent performance analysis
+Planned use cases include player vs opponent analysis and Python-based replication of existing report views.
 
 ## How to Run
 
