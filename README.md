@@ -105,6 +105,27 @@ The project includes two complementary versions of this page:
 
 This split was intentionally adopted to preserve analytical consistency, since some calculations and ranking behaviors differ between season-specific and all-time contexts.
 
+### Player Overview
+"![Player Overview](assets/screenshots/player_overview_all.png)
+
+Player Overview
+
+This page was designed as a player-centered analytical view, combining overall player benchmarks with a detailed breakdown of an individually selected player.
+
+It includes:
+
+- general player benchmarks and top-3 comparisons
+- selected player KPIs and summary metrics
+- games and victories over time
+- commander-level performance breakdown
+- recent match history
+- contextual highlights such as streaks, ranks, opponents defeated, and game speed patterns
+- score composition and starting position analysis
+
+Several KPI cards and visuals also include contextual tooltips, adding complementary detail without overcrowding the main layout.
+
+The goal of this page is to move beyond simple aggregate metrics and provide a more complete understanding of how a specific player performs, which commanders drive their results, how their score is built, how their recent trajectory compares with their broader historical profile, and under which conditions they tend to perform better.
+
 ### Commander Overview
 ![Commander Overview](assets/screenshots/commander_overview_all.png)
 
@@ -119,6 +140,7 @@ It includes:
 - breakdowns by starting position and number of players
 
 The goal of this page is to move beyond simple aggregate metrics and provide a more tactical understanding of how a specific commander performs, how often it is used, under which conditions it performs better, and how its recent trajectory compares with its broader historical profile.
+
 
 
 ## Additional Analytics (Python Layer)
