@@ -106,9 +106,7 @@ The project includes two complementary versions of this page:
 This split was intentionally adopted to preserve analytical consistency, since some calculations and ranking behaviors differ between season-specific and all-time contexts.
 
 ### Player Overview
-"![Player Overview](assets/screenshots/player_overview_all.png)
-
-Player Overview
+![Player Overview](assets/screenshots/player_overview_all.png)
 
 This page was designed as a player-centered analytical view, combining overall player benchmarks with a detailed breakdown of an individually selected player.
 
