@@ -92,8 +92,6 @@ Example:
 ### Navigation Page
 ![Navigation Page](assets/screenshots/navigation.png)
 
-Dashboard Navigation
-
 This page was designed as the entry point of the dashboard, combining page navigation with high-level highlights from the dataset.
 
 It includes:
