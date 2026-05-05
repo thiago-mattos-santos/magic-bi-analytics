@@ -88,6 +88,10 @@ Example:
 - `sql/ranking_points.sql` → creates the `ranking_points` table with bonus score logic by player and season
 
 ## Dashboard
+
+### Navigation Page
+![Navigation Page](assets/screenshots/navigation.png)
+
 Dashboard Navigation
 
 This page was designed as the entry point of the dashboard, combining page navigation with high-level highlights from the dataset.
@@ -99,9 +103,6 @@ It includes:
 - an Insights section with short analytical statements summarizing key patterns from the dataset
 
 The goal of this page is to provide a cleaner and more guided dashboard experience, helping users navigate the report while also surfacing quick-read conclusions about performance, score dynamics, starting position behavior, combo frequency, and deck composition.
-
-### Navigation Page
-![Navigation Page](assets/screenshots/navigation.png)
 
 ### Season Overview
 ![Season Overview](assets/screenshots/season_overview_single.png)
